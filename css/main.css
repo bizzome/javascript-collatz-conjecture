@@ -1,6 +1,47 @@
 body {
-    width: 50%;
-    max-width: 800px;
-    min-width: 480px;
-    margin: 0 auto;
-  }
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  background: #333;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  margin: 15% 0 0 0;
+}
+
+#section-a p {
+  margin: 2em 0 2em 0;
+}
+
+#section-b p {
+  color: #5f0;
+}
+
+.number{
+  background: #555;
+  color: #fff;
+  border-radius: 5px;
+  padding: .5em .5em;
+  border: 1px solid #666;
+}
+
+.numberSubmit {
+  background: #333;
+  color: #fff;
+  padding:  1em 2em;
+  border-radius: 5px;
+  border: 1px solid #666;
+  margin: 2.5em 0 1em 0;
+}
+
+.numberSubmit:hover {
+  background: #fff;
+  color: #333;
+}
+
+.numberSubmit:active{
+  background:#666;
+}
